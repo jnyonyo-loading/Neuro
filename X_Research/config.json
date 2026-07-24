@@ -1,0 +1,26 @@
+{
+  "_comment": "X Topic Agent — configuration. Replace bearer_token before running.",
+
+  "bearer_token": "AAAAAAAAAAAAAAAAAAAAALAh%2BwEAAAAAMNguzH9jC%2BrPEUjTngNGzOT1Y%2FQ%3DIr11p0g0DIj1wyY1By5fG231rmISexWmNo8i4vTRUvixM6IIga",
+
+  "topic": "#AI OR \"artificial intelligence\"",
+  "topic": "\"neural encoding\"",
+  "topic": "\"neural decoding\"",
+  "topic": "\"neural networks in human vision\" OR \"neural networks\"",
+  "topic": "\"quantum physics\"",
+  "topic": "\"stochastic equations\"",
+  "topic": "\"partial differential equations\"",
+  "topic": "\"probability distributions\"",
+  "topic": "\"brain waves\"",
+  "topic": "from:VFD_org OR from:ruffini",
+  
+  "language": "en",
+
+  "exclude_retweets": true,
+  "exclude_replies": true,
+
+  "max_results_per_run": 100,
+  "max_stored": 500,
+
+  "output_file": "data.json"
+}
