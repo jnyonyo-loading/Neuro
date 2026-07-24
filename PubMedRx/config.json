@@ -1,0 +1,22 @@
+{
+  "_note": "Replace 'your@email.com' with your real email — required by NCBI. api_key is optional but recommended (free at https://www.ncbi.nlm.nih.gov/account/).",
+  "email":   "juliusnyonyo@gmail.com",
+  "api_key": "",
+
+  "topics": [
+    "artificial intelligence",
+    "neural encoding",
+    "neural decoding",
+    "neural networks human vision",
+    "quantum physics",
+    "stochastic equations",
+    "partial differential equations",
+    "probability distributions",
+    "brain waves"
+  ],
+
+  "max_results_per_topic": 10,
+  "days_back": 90,
+  "max_stored": 1000,
+  "output_file": "data.json"
+}
