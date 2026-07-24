@@ -37,7 +37,7 @@ def dog_filter(frame, sigma_c, sigma_s, weight):
 # ── Temporal kernel ────────────────────────────────────────────────────────────
 
 def build_kernel(tau1, tau2, neg_gain, n_frames, dt_ms):
-    lags = np.arange(n_frames - 1, -1, -1) * dt_ms
+    lags = np.arange(0, n_frames) * dt_ms
     k = np.exp(-lags**2 / (2*tau1**2)) - neg_gain * np.exp(-lags**2 / (2*tau2**2))
     if np.max(np.abs(k)) > 0:
         k /= np.max(np.abs(k))
